@@ -15,9 +15,15 @@ class _BottomNavBarState extends State<BottomNavBar> {
   List<Widget> pages = [
     const HomePage(),
     const MallPage(),
-    const Placeholder(),
-    const Placeholder(),
-    const Placeholder(),
+    const Center(
+      child: Text('Discover'),
+    ),
+    const Center(
+      child: Text('Inbox'),
+    ),
+    const Center(
+      child: Text('Account'),
+    ),
   ];
 
   _changeTab(int index) {
