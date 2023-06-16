@@ -15,17 +15,9 @@ class NewServiceTiles extends StatelessWidget {
           Radius.circular(5),
         ),
         border: Border.all(
-          color: Color(0xFFCBCBCB),
+          color: const Color(0xFFCBCBCB),
           width: 0.5,
         ),
-        // boxShadow: [
-        //   BoxShadow(
-        //     color: Colors.grey.withOpacity(0.5),
-        //     spreadRadius: 2,
-        //     blurRadius: 7,
-        //     offset: const Offset(3, 3), // changes position of shadow
-        //   ),
-        // ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,

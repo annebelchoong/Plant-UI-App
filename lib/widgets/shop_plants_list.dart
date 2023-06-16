@@ -1,5 +1,4 @@
 import 'package:dataflowdevtest/widgets/list_items.dart';
-import 'package:dataflowdevtest/widgets/shop_plants.dart';
 import 'package:flutter/material.dart';
 
 class ShopPlanListView extends StatelessWidget {

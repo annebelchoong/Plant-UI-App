@@ -9,9 +9,9 @@ class MallTile2 extends StatelessWidget {
     return Container(
       width: 180,
       height: 315,
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: Colors.white,
-        borderRadius: const BorderRadius.all(
+        borderRadius: BorderRadius.all(
           Radius.circular(5),
         ),
       ),

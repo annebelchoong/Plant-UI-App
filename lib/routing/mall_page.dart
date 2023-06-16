@@ -9,7 +9,7 @@ class MallPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color(0xFFF4F4F4),
+        backgroundColor: const Color(0xFFF4F4F4),
         appBar: AppBar(
             backgroundColor: Colors.white,
             title: Container(
@@ -18,12 +18,12 @@ class MallPage extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(20),
-                boxShadow: [
+                boxShadow: const [
                   BoxShadow(
                     color: Color(0x14000000),
                     spreadRadius: 0.5,
                     blurRadius: 7,
-                    offset: const Offset(3, 3), // changes position of shadow
+                    offset: Offset(3, 3), // changes position of shadow
                   ),
                 ],
               ),
@@ -36,19 +36,6 @@ class MallPage extends StatelessWidget {
                     "assets/Icon - Search.png",
                     scale: 2,
                   ),
-                  // Expanded(
-                  //   child: TextField(
-                  //     decoration: InputDecoration(
-                  //       hintText: "Search Salon",
-                  //       hintStyle: TextStyle(
-                  //         color: Colors.grey,
-                  //         fontSize: 15,
-                  //       ),
-                  //       border: InputBorder.none,
-                  //       contentPadding: EdgeInsets.only(left: 10),
-                  //     ),
-                  //   ),
-                  // ),
                   SizedBox(
                     width: MediaQuery.of(context).size.width * 0.03,
                   ),

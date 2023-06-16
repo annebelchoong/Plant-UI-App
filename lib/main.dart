@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         scrollbarTheme: ScrollbarThemeData(
           // isAlwaysShown: true,
           interactive: true,
-          thumbColor: MaterialStateProperty.all(Color(0xFF244B3A)),
+          thumbColor: MaterialStateProperty.all(const Color(0xFF244B3A)),
           radius: const Radius.circular(10.0),
         ),
       ),
